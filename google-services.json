@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "258139722553",
+    "project_id": "poupamais-9b0b8",
+    "storage_bucket": "poupamais-9b0b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258139722553:android:3f304ca7d0279c70fa0ee8",
+        "android_client_info": {
+          "package_name": "com.example.poupamais"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "258139722553-ub6j8nj4ol2p4cdnocjjob0av6mnf1hm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB45aqS5RAzo--bn-6ETecmL01NQwvjBUk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "258139722553-ub6j8nj4ol2p4cdnocjjob0av6mnf1hm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array
+        name="Array_states">
+        <item>@string/ac</item>
+        <item>@string/al</item>
+        <item>@string/ap</item>
+        <item>@string/am</item>
+        <item>@string/bh</item>
+        <item>@string/ce</item>
+        <item>@string/df</item>
+        <item>@string/es</item>
+        <item>@string/go</item>
+        <item>@string/ma</item>
+        <item>@string/mt</item>
+        <item>@string/ms</item>
+        <item>@string/mg</item>
+        <item>@string/pb</item>
+        <item>@string/pa</item>
+        <item>@string/pr</item>
+        <item>@string/pe</item>
+        <item>@string/pi</item>
+        <item>@string/rj</item>
+        <item>@string/rn</item>
+        <item>@string/rs</item>
+        <item>@string/ro</item>
+        <item>@string/rr</item>
+        <item>@string/sc</item>
+        <item>@string/sp</item>
+        <item>@string/se</item>
+        <item>@string/to</item>
+        <item>aqui</item>
+    </string-array>
+
+    <string-array name="month">
+        <item>@string/janeiro</item>
+        <item>@string/fevereiro</item>
+        <item>@string/março</item>
+        <item>@string/abril</item>
+        <item>@string/maio</item>
+        <item>@string/junho</item>
+        <item>@string/julho</item>
+        <item>@string/agosto</item>
+        <item>@string/setembro</item>
+        <item>@string/outubro</item>
+        <item>@string/novembro</item>
+        <item>@string/dezembro</item>
+    </string-array>
+
+    <string-array name="balance">
+        <item>@string/saldo1</item>
+        <item>@string/saldo2</item>
+        <item>@string/saldo3</item>
+        <item>@string/saldo4</item>
+        <item>@string/saldo5</item>
+        <item>@string/saldo6</item>
+        <item>@string/saldo7</item>
+        <item>@string/saldo8</item>
+        <item>@string/saldo9</item>
+        <item>@string/saldo10</item>
+        <item>@string/saldo11</item>
+        <item>@string/saldo12</item>
+    </string-array>
+
+    <string-array name="target">
+        <item>@string/meta1</item>
+        <item>@string/meta2</item>
+        <item>@string/meta3</item>
+        <item>@string/meta4</item>
+        <item>@string/meta5</item>
+        <item>@string/meta6</item>
+        <item>@string/meta7</item>
+        <item>@string/meta8</item>
+        <item>@string/meta9</item>
+        <item>@string/meta10</item>
+        <item>@string/meta11</item>
+        <item>@string/meta12</item>
+    </string-array>
+
+    <string-array name="fees">
+        <item>@string/fees1</item>
+        <item>@string/fees2</item>
+        <item>@string/fees3</item>
+        <item>@string/fees4</item>
+        <item>@string/fees5</item>
+        <item>@string/fees6</item>
+        <item>@string/fees7</item>
+        <item>@string/fees8</item>
+        <item>@string/fees9</item>
+        <item>@string/fees10</item>
+        <item>@string/fees11</item>
+        <item>@string/fees12</item>
+    </string-array>
+
+</resources>

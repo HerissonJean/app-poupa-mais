@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".RegisterSavingsActivity">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="Registe sua meta"/>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:text="@string/Mark"/>
+
+            <EditText
+                android:id="@+id/et_mark"
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:hint=" 1000"
+                android:layout_height="wrap_content"
+                />
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:text="@string/Balance"/>
+            <EditText
+                android:id="@+id/et_balance"
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:hint=" 500"
+                android:layout_height="wrap_content"
+                />
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:text="@string/fees"/>
+            <EditText
+                android:id="@+id/et_fees"
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:hint=" 1%"
+                android:layout_height="wrap_content"
+                />
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:text="Mes:"/>
+            <Spinner
+                android:id="@+id/spinner_month"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:text="@string/Reminder"/>
+            <EditText
+                android:id="@+id/et_reminder"
+                android:layout_width="match_parent"
+                android:inputType="textMultiLine"
+                android:gravity="start|left"
+                android:hint="@string/Reminder_about"
+                android:layout_gravity="start|end"
+                android:background="@drawable/border"
+                android:layout_height="60dp"/>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/bt_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:background="@color/gray_light"
+                android:layout_marginTop="10dp"
+                android:text="@string/save"/>
+
+            <Button
+                android:id="@+id/bt_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:background="@color/red"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/cancel"/>
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:padding="16dp"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <android.support.v7.widget.LinearLayoutCompat
+                 android:id="@+id/my_linearLyaout"
+                 android:layout_width="match_parent"
+                 android:orientation="vertical"
+                 android:gravity="bottom"
+                 android:layout_height="wrap_content">
+
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/bt_clue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:textColor="@color/green"
+                    android:text="@string/clue"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center|start"
+                    android:textColor="@color/black"
+                    android:text="@string/Mark"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center|start"
+                    android:text="@string/about_mark"/>
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:text="@string/Balance"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:text="@string/about_balance"/>
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:text="@string/fees"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:inputType="number"
+                    android:text="@string/about_fees"
+                    android:layout_height="wrap_content"
+                    />
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:text="@string/month"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:text="@string/about_mount"/>
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:text="@string/Reminder"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:text="@string/about_reminder"/>
+
+                    </android.support.v7.widget.LinearLayoutCompat>
+                </android.support.v7.widget.LinearLayoutCompat>
+            </android.support.v7.widget.LinearLayoutCompat>
+        </android.support.v7.widget.LinearLayoutCompat>
+    </android.support.v7.widget.LinearLayoutCompat>
+</android.support.v7.widget.LinearLayoutCompat>
